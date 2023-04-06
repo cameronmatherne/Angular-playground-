@@ -1,0 +1,18 @@
+<div class="top-menu">
+
+    <img class="logo"
+         src="https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png">
+
+</div>
+
+<div class="courses">
+
+  <note-card (courseSelected)="onCourseSelected($event)" [course]="coreCourse"> </note-card>
+  <note-card [course]="rxjsCourse"> </note-card>
+  <note-card [course]="ngrxCourse"> </note-card>
+
+</div>
+
+
+
+
